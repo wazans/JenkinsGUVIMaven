@@ -17,8 +17,12 @@ public class SimpleSeleniumScript {
 	{
 		ChromeOptions options=new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
+		options.addArguments("headless");
 		WebDriver driver=new ChromeDriver(options);
 		driver.get("https://www.twitter.com/");
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
+		
 
 	}
 
