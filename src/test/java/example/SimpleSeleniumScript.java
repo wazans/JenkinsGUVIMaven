@@ -15,14 +15,10 @@ public class SimpleSeleniumScript {
 	@Test
 	public void launchTwitter()
 	{
-		/*
-		 * ChromeOptions options=new ChromeOptions();
-		 * WebDriverManager.chromedriver().setup(); WebDriver driver=new
-		 * ChromeDriver(options); DesiredCapabilities dc = new DesiredCapabilities();
-		 * dc.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-		 * driver.get("https://www.twitter.com/");
-		 */
-		System.out.println("qwertyuiopsdfghj");
+		ChromeOptions options=new ChromeOptions();
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver(options);
+		driver.get("https://www.twitter.com/");
 
 	}
 
