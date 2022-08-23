@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-23T14:27:56 IST" name="Suite" finished-at="2022-08-23T14:28:05 IST" duration-ms="8998">
+  <suite started-at="2022-08-23T19:24:24 IST" name="Suite" finished-at="2022-08-23T19:24:27 IST" duration-ms="2759">
     <groups>
     </groups>
-    <test started-at="2022-08-23T14:27:56 IST" name="Test" finished-at="2022-08-23T14:28:05 IST" duration-ms="8998">
+    <test started-at="2022-08-23T19:24:24 IST" name="Test" finished-at="2022-08-23T19:24:27 IST" duration-ms="2759">
       <class name="example.SimpleSeleniumScript">
-        <test-method signature="launchTwitter()[pri:0, instance:example.SimpleSeleniumScript@6cf0e0ba]" started-at="2022-08-23T14:27:56 IST" name="launchTwitter" finished-at="2022-08-23T14:28:05 IST" duration-ms="8969" status="PASS">
+        <test-method signature="launchTwitter()[pri:0, instance:example.SimpleSeleniumScript@4c309d4d]" started-at="2022-08-23T19:24:24 IST" name="launchTwitter" finished-at="2022-08-23T19:24:27 IST" duration-ms="2737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTwitter -->
